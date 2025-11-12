@@ -1,4 +1,4 @@
-n = int(input("How old are you?:"))
+n = int(input("How old are you?"))
 print(n)
 
 age = n +27
