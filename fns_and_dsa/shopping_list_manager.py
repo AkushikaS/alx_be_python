@@ -9,10 +9,10 @@ def main():
     shopping_list = []
     while True:
         display_menu()
-        choice = input("Enter your choice: ")
+        choice = input("Enter the your choice: ")
 
         if choice == '1':
-            item = input("Enter item to add: ")
+            item = input("Enter the item to add: ")
             print(f"{item}, added.")
             shopping_list.append(item)
             # Prompt for and add an item
