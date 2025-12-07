@@ -36,4 +36,4 @@ class Library:
     def list_books(self):
         """Print the details of all books in the library."""
         for book in self.books:
-            print(book.details())
+            print(book)  # ✅ Fixed: calls __str__() automatically
